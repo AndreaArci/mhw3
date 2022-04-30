@@ -1,0 +1,271 @@
+body{
+  margin: 0px;
+  background-color: rgb(253, 219, 59);
+}
+
+
+header{
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    margin: 0px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url(quentin-tarantino-movies-ranked-1564161523.jpg);
+    position: relative;
+  }
+  
+  #titolo {
+    top: 40%;
+    left: 0.5%;
+    width: 35%;
+    color: rgb(131, 23, 23);
+    font-family: 'Smokum', cursive;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: bold;
+    position: absolute;
+  }
+  
+  #overlayheader{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  nav{
+background-color: black;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:left;
+height: 40px;
+width: 100%;
+}
+
+nav a:hover{
+  color: rgb(131, 23, 23);
+}
+
+  nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-right: 80px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    color:rgb(233, 229, 0);
+    }
+
+#blogpic{
+  display:flex;
+  flex-direction: row;
+  justify-content:end;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  margin-left:46%; 
+  border: 5px solid black;
+  border-radius: 60%;
+  margin-top:-55px; 
+  position: absolute;
+}
+
+#underheader{
+width: 100%;
+height: 5px;
+background-color: black;
+  }
+
+#userinfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+#userinfo p{
+  margin-bottom: -4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 9.5px;
+  font-weight: bold;
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+}
+
+.Box{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 30px;
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+}
+
+.Box h1{
+  margin-left: 1%;
+  color: rgb(131, 23, 23);
+  font-family: 'Smokum', cursive;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 65px;
+}
+
+
+.Box h3{
+  margin-left: 2.8%;
+  color: rgb(131, 23, 23);
+  font-family: 'Smokum', cursive;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 30px;
+
+}
+
+.Box p{
+  margin-left: 2.8%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 16px;
+  width: 90%;
+
+}
+
+p a{
+  margin-left: 2.8%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+p a:hover{
+  color: rgb(131, 23, 23);
+
+}
+ 
+.ArticlePics{
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 420px;
+  margin-top: 7%;
+}
+
+#KillBillPic{
+  background-image: url("maxresdefault.jpg");
+}
+
+#PulpFictionPic{
+  background-image: url("Pulp-Fiction-2.jpg");
+}
+
+#BstIngPic{
+  background-image: url("locandinapg12.jpg");
+}
+
+#OnceUponPic{
+  background-image: url("54398981_10155878976727116_4401519619228041216_o.jpg");
+}
+
+#DjangoUnchainedPic{
+  background-image: url("Django-Unchained-top-5-des-anecdotes-que-vous-ne-savez-peut-etre-pas-Photos.jpg");
+}
+
+footer{
+  text-align: center;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(253, 219, 59);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 3px;
+}
+
+
+
+#Rating_Search{
+  display:flex;
+  flex-direction: row;
+  justify-content:left;
+  margin-left:80%; 
+  margin-top: -665px;
+  width: 15%;
+  height: 10%;
+  background-color:rgba(253, 219, 59, .3);
+  position: fixed;
+  align-items: center;
+  border: 4px solid;
+  border-color: rgba(0, 0, 0, .3);
+ 
+}
+
+#Rating_Search:hover{
+  border-color: rgba(0, 0, 0, 1);
+  background-color:rgba(253, 219, 59, 1);
+}
+
+#Search{
+  margin-left: 2.8%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+#Copertina{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 5px;
+}
+
+#Copertina img{
+  height: 19%;
+  width: 19%;
+  padding: 5px;
+}
+
+.hidden{
+  display: none;
+}
+
+
+ /* Con HTML <img src="pngwing.com.png" id="blogpic">
+} */

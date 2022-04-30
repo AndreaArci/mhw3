@@ -1,2 +1,4 @@
-# mhw3
-Andrea Arcidiacono 1000003998 mhw3
+Mini-homework 3
+
+Andrea Arcidiacono
+Matricola: 1000003998
